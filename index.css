@@ -1,0 +1,43 @@
+h2 {
+    color: aqua;
+    font-weight: 400;
+}
+
+h3 {
+    color: rebeccapurple;
+}
+
+h4 {
+    font-size: 32px;
+    text-align: center;
+}
+
+.my-button {
+    background-color: fuchsia;
+    font-size: 24px;
+    border: black dotted 4px;
+    padding: 10px 20px;
+    margin: 30px;
+}
+
+.my-button:hover{
+    background-color:greenyellow;
+    box-shadow: 0 0 20px red;
+}
+.box {
+    height: 100px;
+    width: 100px;
+    border: black solid 4px;
+    background-color: seagreen;
+    position: absolute;
+    bottom: 0;
+    z-index: 3;
+}
+
+#big-box{
+    height: 500px;
+    width: 50vw;
+    background-color: tomato;
+    margin: 0 auto;
+    z-index: 3;
+}
